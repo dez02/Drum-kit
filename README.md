@@ -1,6 +1,8 @@
 # DRUM KIT
 ----------
 ```
-ES6
+Training with Wes Bos course
+
+Javascript30 Days
 
 ```
