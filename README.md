@@ -1,8 +1,8 @@
 # DRUM KIT
 ----------
 ```
-Training with Wes Bos course
+Training Javascript ES6 and eventListener.
 
-Javascript30 Days
+
 
 ```
