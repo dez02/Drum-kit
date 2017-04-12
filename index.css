@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+
+.container_keys{
+	display: grid;
+	grid-template-columns:repeat(9, 80px);
+	grid-template-rows: 60px;
+	grid-gap:10px;
+
+}
+
+
+
+.key{
+	border:2px solid red;
+	border-radius: 2px;
+	transition: all 0.07s;
+	background-color: lightgrey;
+}
+
+kbd{
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+}
+
+.sound{
+	font-size: 1.2;
+	color: #ffc600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.playing{
+	transform: scale(1.1);
+	border-color: #ffc600;
+	box-shadow: 0 0 10 #ffc600;
+}
+
+
+
+
+
+
