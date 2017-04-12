@@ -2,25 +2,30 @@
 
 .container_keys{
 	display: grid;
-	grid-template-columns:repeat(9, 80px);
-	grid-template-rows: 60px;
+	grid-template-columns:repeat(9, 100px);
+	grid-template-rows: 250px;
 	grid-gap:10px;
+	justify-content:center;
+	align-items: center;
+    background-color: cyan;
 
 }
 
 
 
-.key{
+.key{height: 80px;
 	border:2px solid red;
 	border-radius: 2px;
 	transition: all 0.07s;
-	background-color: lightgrey;
+	background-color: black;
+	text-shadow: 0 0 15 brown;
 }
 
 kbd{
 	font-size: 20px;
 	color:#fff;
 	text-align: center;
+	display: block;
 }
 
 .sound{
@@ -28,6 +33,7 @@ kbd{
 	color: #ffc600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	display: block;
 }
 
 .playing{
